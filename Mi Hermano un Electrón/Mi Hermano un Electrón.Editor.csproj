@@ -244,6 +244,15 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Timeline">
       <HintPath>Library\UnityAssemblies\UnityEngine.Timeline.dll</HintPath>
     </Reference>
@@ -346,8 +355,23 @@
     <Reference Include="Boo.Lang">
       <HintPath>Library\UnityAssemblies\Boo.Lang.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
     <Reference Include="Facebook.Unity.Settings">
       <HintPath>Library\FacebookSDK\Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="PackageManagerAssembly">
+      <HintPath>Assets\EffectExamples\Editor\PackageManagerAssembly\PackageManagerAssembly.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -361,21 +385,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Packages\com.unity.standardevents\Editor\Importer.cs" />
+    <Compile Include="Assets\EffectExamples\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Alien_Fire_PSK.xml" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Cartoon_Blast_PSK.xml" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Confetti_Cartoon_PSK.xml" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Firework_Celebretion_PSK.xml" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\ForkParticle.shader" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Magic_Spiral_PSK.xml" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Magic_Twister_PSK.xml" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Snow_Cartoon_PSK.xml" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Stylized_Blast_PSK.xml" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Stylized_Space_Explosion_PSK.xml" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Thunder_Cloud_PSK.xml" />
-    <None Include="Assets\FullTiltBoogie\Helpers\readme.txt" />
+    <None Include="Assets\EffectExamples\Editor\PackageManagerAssembly\PackageImportList.txt" />
+    <None Include="Assets\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\Alert.uxml" />
