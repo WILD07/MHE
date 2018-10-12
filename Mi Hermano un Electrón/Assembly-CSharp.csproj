@@ -61,23 +61,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Fork Particle Variety Pack FX\Assets\Scripts\ForkAPI\CanvasButtonController.cs" />
-    <Compile Include="Assets\Fork Particle Variety Pack FX\Assets\Scripts\ForkAPI\ForkParticleEffect.cs" />
-    <Compile Include="Assets\Fork Particle Variety Pack FX\Assets\Scripts\ForkAPI\ForkParticlePlugin.cs" />
-    <Compile Include="Assets\Fork Particle Variety Pack FX\Assets\Scripts\ForkAPI\PSBAsset.cs" />
-    <Compile Include="Assets\FullTiltBoogie\RotateFlareHolder.cs" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Cartoon_Blast_PSK.xml" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Firework_Celebretion_PSK.xml" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Confetti_Cartoon_PSK.xml" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\ForkParticle.shader" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Stylized_Blast_PSK.xml" />
-    <None Include="Assets\FullTiltBoogie\Helpers\readme.txt" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Magic_Twister_PSK.xml" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Snow_Cartoon_PSK.xml" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Magic_Spiral_PSK.xml" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Stylized_Space_Explosion_PSK.xml" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Alien_Fire_PSK.xml" />
-    <None Include="Assets\Fork Particle Variety Pack FX\Assets\Resources\ForkFX\Thunder_Cloud_PSK.xml" />
+    <Compile Include="Assets\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
+    <Compile Include="Assets\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
+    <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
+    <Compile Include="Assets\EffectExamples\Shared\Scripts\GunShoot.cs" />
+    <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+    <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
+    <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
+    <Compile Include="Assets\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\CameraControl.cs" />
+    <Compile Include="Assets\Scripts\PlayerMov.cs" />
+    <None Include="Assets\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/TSV/Taller/MHE/Mi Hermano un Electrón/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
