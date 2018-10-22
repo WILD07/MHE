@@ -316,6 +316,8 @@
     <Compile Include="Assets\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\administradorBotones.cs" />
     <Compile Include="Assets\Scripts\CameraControl.cs" />
+    <Compile Include="Assets\Scripts\Menu.cs" />
+    <Compile Include="Assets\Scripts\PantallaCarga.cs" />
     <Compile Include="Assets\Scripts\PlayerMov.cs" />
   </ItemGroup>
   <ItemGroup>
